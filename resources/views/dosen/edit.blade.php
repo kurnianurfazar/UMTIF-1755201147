@@ -24,9 +24,9 @@
       </div>
     </div>
     <div class="form-group row">
-      <label for="kode_dosen" class="col-sm-12">nidn</label>
+      <label for="nidn" class="col-sm-12">nidn</label>
       <div class="col-sm-5">
-      <input type="text" name="nidn" class="form-control"id="nidn" placeholder="Masukan nama dengan benar" value="{{ $dosen->handphone }}">
+      <input type="text" name="nidn" class="form-control"id="nidn" placeholder="Masukan nama dengan benar" value="{{ $dosen->nidn }}">
        @error('nidn')<small id="nidn" class="form-text textdanger">{{ $message }}</small>@enderror
       </div>
     </div>
@@ -39,7 +39,7 @@
     <div class="form-group row">
       <label for="kode_dosen" class="col-sm-12">handphone</label>
       <div class="col-sm-5">
-        <input type="text" name="handphone" class="form-control"id="handphone" placeholder="Masukan nama dengan benar" value="{{ $dosen->handphone }}">
+        <input type="text" name="handphone" class="form-control"id="handphone" placeholder="Masukan nama dengan benar" value="{{ $dosen->dosen }}">
        @error('handphone')<small id="handphone" class="form-text textdanger">{{ $message }}</small>@enderror
       </div>
     </div>
