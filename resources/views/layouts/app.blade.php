@@ -14,6 +14,7 @@
     <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
 </head>
 <body>
+
     @include('layouts.navbar')
     <div class="container-fluid">
         <div class="row mt-2">
